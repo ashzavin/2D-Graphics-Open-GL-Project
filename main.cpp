@@ -170,25 +170,25 @@ glPushMatrix();
 
     glPushMatrix();
     glTranslatef(51,79,0);
-    //glColor3f(.80, .80, .76);
-    glColor3f(0, 0, 0);
+    glColor3f(.80, .80, .76);
+    //glColor3f(0, 0, 0);
     circle(10,8);
     glPopMatrix();
 
 
     glPushMatrix();
     glTranslatef(75,75,0);
-    //glColor3f(1, .98, .98);
-    glColor3f(0, 1, 0);
+    glColor3f(1, .98, .98);
+    //glColor3f(0, 1, 0);
     circle(10,8);
     glPopMatrix();
 
 
     glPushMatrix();
     glTranslatef(60,70,0);
-    //glColor3f(.80, .79, .65);
-    //glColor3f(.96, .96, .86);
-        glColor3f(1, 0, 0);
+    glColor3f(.80, .79, .65);
+    glColor3f(.96, .96, .86);
+        //glColor3f(1, 0, 0);
     circle(15,12);
     glPopMatrix();
 
