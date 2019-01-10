@@ -1632,7 +1632,7 @@ int main()
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (850, 700);
 	glutInitWindowPosition (250, 20);
-	glutCreateWindow ("Olaf Frozen");
+	glutCreateWindow ("2D Olaf Cartoon");
 	init();
 	glutDisplayFunc(display);
 	glutSpecialFunc(spe_key);
